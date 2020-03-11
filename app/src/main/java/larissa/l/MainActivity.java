@@ -48,22 +48,22 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Toast.makeText(MainActivity.this, listaFrutas.get(i), Toast.LENGTH_LONG);
 
-                Intent intent = new Intent(MainActivity.this, ComponenteView.class);
+                          Intent intent = new Intent(MainActivity.this, ComponenteView.class);
 
                 intent.putExtra("fruta", listaFrutas.get(i));
                 startActivity(intent);
             }
 
         });
-
-        Button;
-        RadioButton;
-        ImageButton;
-        CheckBox;
-        RatingBar;
-        ToggleButton;
-        DatePicker;
-        AlertDialog;
+/*
+      Button;
+      RadioButton;
+      ImageButton;
+     CheckBox;
+     RatingBar;
+     ToggleButton;
+    DatePicker;
+    AlertDialog;*/
 
     }
 
